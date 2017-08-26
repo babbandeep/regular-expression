@@ -1,0 +1,8 @@
+<script>
+var regExp = /(?:(\W|(?:php|html)))/g;
+var urlName = window.location.pathname
+document.write(urlName.replace(regExp, " "));
+</script>
+
+
+for more you can visit  http://regexr.com/3gkgu
