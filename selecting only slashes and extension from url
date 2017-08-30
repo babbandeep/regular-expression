@@ -6,3 +6,10 @@ document.write(urlName.replace(regExp, " "));
 
 
 for more you can visit  http://regexr.com/3gkgu
+
+
+
+
+/wedding-bean-bags.html  to   Wedding Bean Bags  using php  preg_replace
+
+preg_replace('/(?:(-|\/|\.html))/', " ",  /wedding-bean-bags.html);
